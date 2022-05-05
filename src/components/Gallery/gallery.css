@@ -1,0 +1,74 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    
+}
+/* .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 2px;
+    margin:5px 5px 5px 5px;
+    height: 50vh;
+    width: 20vw;
+    background: rgba(1, 44, 20, 0.897);
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+} */
+/* .img{
+    opacity: 0;
+    height: 200px;
+    width: 210px;
+    margin: 10px 10px 10px 10px;
+    margin-bottom: 15px;
+    background-size: contain;
+}
+.card .img:hover{
+    opacity: 1; */
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 2px;
+    margin:5px 5px 5px 5px;
+    height: 60vh;
+    width: 20vw;
+    background: rgba(1, 44, 20, 0.897);
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-start;
+    justify-content: space-between;
+}
+.nick{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.img{
+    margin-top:0.5rem;
+    height: 36vh;
+    width:18vw;
+}
+.occupation{
+    display: flex;
+    flex-direction: column;
+    
+}
+.addDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+}

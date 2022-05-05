@@ -1,0 +1,49 @@
+.topbar{
+    display: flex;
+    flex-direction: row;
+    height: 11rem;
+    width: 100%;
+    background: rgb(0, 37, 17);
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    flex:3;
+    font-size:50px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+
+}
+.Wname{
+    flex:9;
+    font-size:50px;
+    text-align: center;
+    margin-left: -30%;
+}
+.br{
+    border:2px solid white;
+    height: 60px;
+    width: 60px;
+    padding: 4px 4px 4px 4px;
+    margin-left:1.2rem;
+    background: rgba(5, 56, 28, 0.897);
+}
+.ba{
+    border:2px solid white;
+    margin-left:5.7rem;
+    padding: 4px 4px 4px 4px;
+    height: 60px;
+    width: 60px;
+    background: rgba(5, 56, 28, 0.897);
+}
+.Br{
+    border:2px solid white;
+    padding :12px 12px 12px 12px;
+    background: rgba(5, 56, 28, 0.897);
+}
+.Ba{
+    border:2px solid white;
+    padding :12px 12px 12px 12px;
+    background: rgba(5, 56, 28, 0.897);
+}
